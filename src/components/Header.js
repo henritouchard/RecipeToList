@@ -7,7 +7,7 @@ const Header = () => (
       <header className="App-header">
         <h1 className="App-title col-sm-10 col-xs-9">
           <Link to="/">
-            CookIn
+            RecipeTolist
           </Link>
         </h1>
         <Link to="/cart">

@@ -7,8 +7,8 @@ import { Provider } from 'react-redux';
 import store from './store';
 import Header from './components/Header';
 import RecipesToList from './components/RecipesToList';
-import RecipePage from './Container/RecipePage';
-import Cart from './Container/Cart';
+import RecipePage from './container/RecipePage';
+import Cart from './container/Cart';
 
 import registerServiceWorker from './registerServiceWorker';
 
