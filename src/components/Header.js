@@ -10,8 +10,9 @@ const Header = () => (
             CookIn
           </Link>
         </h1>
-        <button className="btn btn-info col-sm-2 col-xs-3" style={{align: "right", margin: "-5px"}}>
-          <Link to="/cart">
+        <Link to="/cart">
+          <button className="btn btn-info col-sm-2 col-xs-3"
+                  style={{align: "right", margin: "-5px"}}>
             <div className="glyphicon glyphicon-shopping-cart "
                  style={{
                    fontSize: "1.6em",
@@ -22,10 +23,8 @@ const Header = () => (
                 My Cart
               </h4>
             </div>
-
-
-          </Link>
-        </button>
+          </button>
+        </Link>
       </header>
     </div>
 );
