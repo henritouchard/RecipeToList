@@ -1,0 +1,70 @@
+.App {
+    text-align: left;
+    max-width: 100%;
+}
+
+.App-header {
+    background-color: #222;
+    height: 70px;
+    padding: 10px;
+    color: white;
+}
+
+.App-title {
+    font-size: 3.5em;
+    margin-top: -8px;
+    font-family: "Lobster", "sans-serif", "Roboto";
+}
+
+.App-intro {
+    font-size: large;
+}
+
+.grid{
+    align-items: left;
+}
+
+.titles {
+    font-family: "Lobster", "sans-serif", "Roboto";
+}
+
+.recipe-card {
+    margin: 10px 0 10px;
+    float: left;
+    max-height: 430px;
+    max-width: 350px;
+
+    display: inline-block;
+    box-shadow: 0.1px 0.1px 10px;
+    border-radius: 2px;
+    padding: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card-title{
+    color: #337ab7;
+    font-weight: bold;
+    max-height: 15px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.recipe-img {
+    position: relative;
+    width: 100%;
+}
+
+.rnd-btn {
+    border-radius: 50px;
+    font-size: 1.2em;
+}
+
+.button-cart{
+    margin-top: -4px;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 3px;
+    border-radius: 15px 15px 15px 15px;
+    color: white;
+}
